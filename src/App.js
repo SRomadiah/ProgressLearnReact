@@ -11,11 +11,14 @@ import FunctionClick from "./Components/FunctionClick";
 import ClassClick from "./Components/ClassClick";
 import EventBind from "./Components/EventBind";
 import ParentsComponent from "./Components/ParentsComponent";
+import StateProps from "./Components/StateProps/State";
+import UserGreeting from "./Components/UserGreeting";
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParentsComponent />
+        {/* <UserGreeting /> */}
+        {/* <ParentsComponent /> */}
         {/* <EventBind /> */}
         {/* <FunctionClick /> */}
         {/* <ClassClick /> */}
@@ -33,6 +36,7 @@ class App extends Component {
         {/* <Welcome name="Roma" heroName="Girl" />
         <Welcome name="Diyh" heroName="Girl" /> */}
         {/* <Hello /> */}
+        {/* <StateProps /> */}
       </div>
     );
   }
