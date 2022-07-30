@@ -7,8 +7,18 @@ class Messages extends Component {
       messages: "Welcome Visitors",
     };
   }
+  changeMessages() {
+    this.setState({
+      messages: "Thank You For Subscribing",
+    });
+  }
   render() {
-    return <h1>{this.state.messages}</h1>;
+    return (
+      <div>
+        <h1>{this.state.messages}</h1>
+        <button onClick={() => this.changeMessages()}>Subscribe</button>
+      </div>
+    );
   }
 }
 

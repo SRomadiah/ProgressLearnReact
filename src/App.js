@@ -6,21 +6,31 @@ import Welcome from "./Components/Class";
 import Hello from "./Components/Hello";
 import Messages from "./Components/Messages";
 import Card from "./Components/Card";
+import Count from "./Components/Count";
+import FunctionClick from "./Components/FunctionClick";
+import ClassClick from "./Components/ClassClick";
+import EventBind from "./Components/EventBind";
+import ParentsComponent from "./Components/ParentsComponent";
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <ParentsComponent />
+        {/* <EventBind /> */}
+        {/* <FunctionClick /> */}
+        {/* <ClassClick /> */}
+        {/* <Count /> */}
         {/* <Messages /> */}
-        <Card name="Romadiah" number={3} />
+        {/* <Card name="Romadiah" number={3} /> */}
 
         {/* <Greet name="Roma" heroName="Girl">
           <p>This is Practice React Js</p>
         </Greet>
         <Greet name="Diyh" heroName="Girl">
           <button>Click Here</button>
-        </Greet>
+        </Greet> */}
 
-        <Welcome name="Roma" heroName="Girl" />
+        {/* <Welcome name="Roma" heroName="Girl" />
         <Welcome name="Diyh" heroName="Girl" /> */}
         {/* <Hello /> */}
       </div>
